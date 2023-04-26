@@ -139,7 +139,7 @@ int main() {
     // Plot the results
     plt::figure_size(1200, 800);
     plt::named_plot("40 Equal Steps", x_values1, u_values1, "b.-");
-    plt::named_plot("20 Elements With Varying Mesh Sizes", x_values2, u_values2, "r.-");
+    plt::named_plot("20 Elements", x_values2, u_values2, "r.-");
     plt::xlabel("x");
     plt::ylabel("u(x)");
     plt::title("Finite Element Method Solution");
@@ -159,8 +159,8 @@ int main() {
     plt::figure_size(1200, 800);
     plt::xlabel("x");
     plt::ylabel("u(x)");
+    plt::title("Analytic Solution");
     plt::named_plot("Analytic Solution", x_values, y_values);
-    plt::legend();
     plt::show();
 
     return 0;
