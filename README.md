@@ -4,17 +4,14 @@
 
 This repository contains the code for solving the following oscillatory ODE with boundary conditions:
 
-    ```
     d^2u/dx^2 + du/dx = sin(x),
-    u(2*pi) = 0,    ```
+    u(2*pi) = 0,
     u'(0) = 1
-    ```
 
 The analytical solution of the ODE is given by:
 
-    ```
     u(x) = 3/(2*e^(2*pi)) + 1/2 - 3/2*e^(-x) - (cos(x) + sin(x))/2
-    ```
+
 
 ## Files
 
